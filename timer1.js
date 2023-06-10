@@ -26,9 +26,16 @@
 // get the arguments passed in from the command line
 const args = process.argv.slice(2);
 
+// Edge case number 1 - no numbers provided
 if (args.length === 0) {
   console.log('No numbers provided');
   process.exit(0);
+}
+
+// function to check for the next 2 edgecases
+function validate(){
+
+  // return an array to loop over can call setTimeout on
 }
 
 // loop over the arguments
